@@ -19,6 +19,6 @@ let userone ={
 let usertwo = userone
 userone.email = "habs@google.com"
 
-console.log(userone);
-console.log(usertwo);  // This is an example of Heap memory
+console.log(userone.email);
+console.log(usertwo.email);  // This is an example of Heap memory
 
